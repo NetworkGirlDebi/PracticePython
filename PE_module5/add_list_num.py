@@ -10,7 +10,7 @@ while line != "q":
     if line != "q":
 
         if len(strings) > 0:
-            
+
             total = 0
             try:
                 for substr in strings:
@@ -20,4 +20,3 @@ while line != "q":
                 print(substr, "is not a number.")
         else:
             print("You haven't entered anything...")
-
